@@ -1,0 +1,217 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\selectlanguage{polish}
+\usepackage{graphicx}
+
+\begin{document}
+\pagenumbering{gobble}
+\clearpage
+\begin{figure}[h]
+\centering
+% \includegraphics{media/ps-logo.png}
+\end{figure}
+\hspace{3cm}
+\begin{center}Dokumentacja projektowa\end{center}
+\begin{center}2022/2023\end{center}
+\hspace{3cm}
+\begin{center}\large\textbf{Zarządzanie systemami informatycznymi}\end{center}
+\begin{center}\large\textit{Zagrożenia oraz metody ochrony danych w systemach informatycznych}\end{center}
+
+\hspace{7cm}
+\begin{flushright}Kierunek: Informatyka
+\end{flushright}
+\begin{flushright}Członkowie zespołu:
+\par
+\textit{Zofia Sitek}
+\par
+\textit{Emilia Pawela}
+\par
+\textit{Wojtek Olech}
+\end{flushright}
+\vfill
+\begin{center}Gliwice, 2022/2023\end{center}
+
+\newpage
+\pagenumbering{arabic}
+\tableofcontents
+
+\newpage
+\section{Wprowadzenie}
+
+
+
+
+
+
+
+
+
+
+\subsection{Role w projekcie}
+W niniejszym projekcie Zofia zajęła się wyszukaniem oraz przedstawieniem zagrożeń systemów informatycznych, sposobów wyłudzeń danych. Emilia opracowała temat z zakresu ochrony systemów informatyczny, ochrony danych osoby prywatnej oraz firmy. Wojtek pochylił się nad tematem szyfrowania danych oraz ich rodzaju. Również zajął się montażem filmu dotyczącego wyłudzania danych. Dokumentacja została stworzona wspólnie. 
+
+\subsection{Cel projektu}
+Przybliżenie tematu zagrożeń oraz metod ochrony danych w systemach informatycznych. Przedstawienie przykładowych zagrożeń na które może natknąć się potencjalny użytkownik w Internecie. Ukazanie popularnych sposobów wyłudzeń danych. Prezentacja sposobów obrony przed potencjalnymi wyłudzeniami oraz przedstawienie jak można chronić swoje dane, oraz urządzenia które je magazynują. Zapoznanie z sposobami ochrony danych przez firmy. Również przybliżenie tematu szyfrowań danych, oraz przedstawienie przykładowych szyfrowań. 
+
+\newpage
+
+\section{Założenia projektowe}
+
+\subsection{Założenia techniczne i nietechniczne}
+\begin{itemize}
+\item Metody ochrony danych dla osób prywatnych
+\item Metdoy ochrony danych dla przedsiębiorstw
+\item Autoryzacja, uwierzytelnienie, identyfikacja
+\end{itemize}
+\subsection{Stos technologiczny w ochornie danych}
+\begin{itemize}
+\item Nośniki danych (np. dyski SSD, serwery NAS)
+\item Uwierzytelnienie dwuskładnikowe (np. telefon, laptop, pendive)
+\item Szyforwanie dysku (np. BitLocker,  VeraCrypt)
+
+\end{itemize}
+
+\newpage
+\section{Realizacja projektu}
+
+\subsection{ZOSIA}
+
+
+
+
+
+
+\subsection{Identyfikacja, uwierzytelenie, autoryzacja }
+\begin{itemize}
+\item Identyfikacja to wskazanie tożsamości danej osoby. 
+\item Uwierzytelnianie to weryfikacja tożsamości przypisywanej danej osobie w procesie identyfikacji, na przykład poprzez system loginu i hasła, odcisk palca czy biometrię behawioralną. 
+\item Autoryzacja to z kolei zagwarantowanie użytkownikowi, programowi lub procesowi odpowiednich uprawnień do korzystania z danych zasobów, jeśli uwierzytelnienie przeszło pomyślnie. 
+
+\end{itemize}
+
+Uwierzytelnianie wieloskładnikowe, nazywane też MFA, to mechanizm, który pozwala użytkownikowi zwiększyć bezpieczeństwo procesu logowania, w którym do weryfikacji użytkownika stosuje się więcej niż jeden składnik uwierzytelniania, a w cyfrowym świecie najczęściej dotyczy połączenia systemu loginów i haseł z tokenami SMS czy z biometrią behawioralną. Oprócz kodów, można korzystać także z fizycznych kluczy bezpieczeństwa, które podłącza się do portu USB. 
+
+Obecnie w większości popularnych serwisów można włączyć dwuetapową weryfikację, np.: Google, Gmail, Allegro, Facebook, Twitter, LinkedIn, WhatsApp, Dropbox. 
+
+Podsumowując autoryzacja jest więc finalnym celem procesu identyfikacji, a uwierzytelnianie ma za zadanie zweryfikować, jakie uprawnienia powinien uzyskać dany użytkownik. 
+
+\subsection{Kopia zapasowa}
+Robienie kopi zapasowej jest bardzo ważne, ponieważ przy uszkodzeniu nośnika, na którym są dane są zapisane, można je odtworzyć i nie tracić uzyskanych postępów. Przykładowe nośniki, na których można robić kopie zapasową to: 
+\begin{itemize}
+ \item pendrive 
+\item dysk SSD, HDD 
+\item serwer NAS – kilka dysków które tworzą serwer 
+\end{itemize}
+ Ważne, aby nośniki które mają mieć kopie zapasową nie były cały czas podpięte do właściwego urządzenia, ponieważ również mogą ulec awarii.  Najlepiej, aby kopia znajdowała się w innej lokalizacji, aby uniknąć uszkodzenia np. Podczas pożaru, zalaniu pomieszczenia. 
+\subsection{Zabezpieczenie dostępu do danych }
+
+Napopularniejszym zabepieczeniem danych jest hasło. Ważne żeby było ono silne, aby uniknąć nie powołanego dostępu do danych.
+Silne hasło zawiera: 
+\begin{itemize}
+\item Co najmniej 6 znaków (im więcej znaków, tym silniejsze hasło) 
+\item Zawiera kombinację liter, cyfr i symboli. 
+\item Cyfry od 0 do 9 
+\item Symbole specjalne (np. @*)
+\item Litery (od A do Z) 
+\item W większości haseł rozróżniane są wielkie i małe litery - tak więc kombinacja wielkich (od A do Z) małych liter (od a do z) 
+\end{itemize}
+Unikaj: 
+\begin{itemize}
+\item Wybierania hasła podobnego do wcześniejszego    
+\item Haseł zawierających imiona i nazwiska, nazwy użytkowników, prawdziwe nazwiska, nazwy firm itp.    
+\item Wyrazów zapisanych w odwrotnej kolejności    
+\item Sekwencji (qwerty, abcdef, 12345 itd.)    
+\item Udostępniania haseł    
+\item Zapisywania swoich haseł i przechowywania ich w pobliżu komputera lub systemu logowania    
+\item Używania słowa „hasło” lub podobnych (spróbuj unikać używania cyfr zamiast liter, np. „ha5l0”) 
+\end{itemize}
+Spróbuj: 
+\begin{itemize}
+\item Wybrać hasło, które zapamiętasz    
+\item Regularnie zmieniać hasła    
+\item Nie korzystać z tego samego hasła na wielu kontach i programach    
+\item Wybrać hasło, które nauczysz się wpisywać szybko, bez spoglądania na klawiaturę    
+\item Przekształcić łatwe do zapamiętania wyrażenie w akronim  
+\end{itemize}
+Przykład: susanlovesbrad - Su5@nL0ve58r@d 
+
+Również można zabezpieczać dane biometrycznie. Coraz popularniejsze stają się czytniki linii papilarnych, rozpoznawanie twarzy. 
+
+\subsection{Szyfrowanie nośników danych }
+Szyforwanie dysku jest ważne aby, nasze dane nie zostały wykradzione. 
+Szyfrowanie dysku może działać na różne sposoby. Np. BitLocker wymaga podania ustalonego kodu PIN przed zalogowaniem się do komputera. VeraCrypt pozwala stworzyć wirtualny, zaszyfrowany dysk i w nim ukryć pliki. Partycję można otworzyć tylko i wyłącznie z poziomu programu, wpisując najpierw ustalone wcześniej hasło. 
+
+Smartfony można bardzo łatwo zaszyfrować – zarówno zawartość ich pamięci wewnętrznej, jak i zewnętrznych nośników. Systemy Android mają taką opcję dostępną z poziomu ustawień telefonu (Ustawienia – Zabezpieczenia – Szyfrowanie). W taki sam sposób można zabezpieczyć zarówno pamięć urządzenia, jak i kartę pamięci. 
+
+Można również magazynować dane w chmurze, które również oferują szyfrowane. Jest to także odpowiednik wcześniej wspomnianych kopi zapasowych. 
+ Polega na tym, że pliki i dokumenty są przechowywane na specjalnie dostosowanym serwerze zewnętrznym. Można mieć do nich dostęp po zalogowaniu się na swoje konto w aplikacji. Dzięki temu można je przeglądać w dowolnym miejscu, w którym jest połączenie z internetem. Pierwszym i podstawowym zabezpieczeniem jest tutaj właśnie login i hasło dostępu. 
+W momencie wysyłania plików do chmury jest ryzyko, że ktoś niepowołany może się do nich dostać. Chroni przed tym szyfrowanie plików. Można wybrać zewnętrzną aplikację do zaszyfrowania danych przed wysłaniem lub zsynchronizowaną z chmurą. Kolejna możliwość to po prostu chmura z wbudowanym szyfrowaniem danych. 
+\subsection{Zabezpieczenie danych w sieci}
+\begin{itemize}
+ \item Korzystanie z najnowszej wersji systemu operacyjnego. 
+ \item Zabezpieczenie komputera programem antywirusowym. 
+ \item Nie otwieranie podejrzanych wiadomości i linków. 
+ \item Pobieranie programów tylko z zaufanych źródeł. 
+ \item Dbanie o anonimowość w sieci. 
+ \item Korzystanie z silnych haseł o których była mowa wcześniej. 
+\end{itemize}
+\subsection{Ochrona danych w przedsiębiorstwach }
+
+\begin{itemize}
+\item Narzędzia CRM- które mogą przechowywać dane klientów w scentralizowanej lokalizacji. Platformy CRM mogą uwzględniać lokalizację danych i unikać przechowywania danych w wielu obszarach. 
+\item Uwirzytelnanie wieloskładnikowe przez klientów oraz pracowników o którym mowa była wcześniej 
+\item Szyforwanie - na poziomie plików, które może chronić przesyłane dane i utrudniać hakerom dostęp do oprogramowania lub zasobów w chmurze. 
+\item Ochorna przed złośliwym oprogramowaniem – odpowiednie programy antywisusowe kóre działają jak zapory ogniowe i odpowiednio zabezpieczają urządzenia. Profesjonalne programy antywirusowe dają dużo większe możliwości niż zwykłe skanowanie dysku. Przykładowo – w wypadku kradzieży lub zgubienia laptopa firmowego, mają możliwość namierzenia go i zdalnego usunięcia wszystkich danych, analizują system i aplikacje pod kątem luk bezpieczeństwa wykorzystywanych przez hakerów czy sprawdzają bezpieczeństwo strony www jeszcze przed kliknięciem w link. 
+\item Technologia BlockChain - w tłumaczeniu z angielskiego znaczy łańcuch bloków. Jest to metoda porządkowania i przechowywania danych w następujących po sobie blokach, które wspólnie tworzą jeden wirtualny łańcuch. Jest to zatem swoista baza danych, choć od typowej bazy różni się kilkoma cechami, które czynią z technologii blockchain niezwykle użyteczne i unikalne narzędzie. Przede wszystkim wszelkie zapisy wprowadzone do rejestru transakcji są całkowicie nieodwracalne, a zatem nie można ich usunąć ani zmodyfikować, dzięki czemu dane są chronione przed wszelkimi próbami oszustw. Ponadto zgromadzone dane nie są przechowywane na wybranym serwerze, lecz w całej sieci, na którą składa się tysiące komputerów. Takie rozproszenie ma podwójną zaletę. Po pierwsze, zawsze można uzyskać dostęp do danych, a po drugie, nie grozi ich utrata choćby z powodu awarii sprzętu, cyberataków, klęsk żywiołowych czy innych nieprzewidzianych zdarzeń. Nie bez znaczenia jest też fakt, że technologia blockchain jest skonstruowana tak, aby z jednej strony zapewniać przejrzystość i transparentność zapisów, z drugiej zaś gwarantować anonimowość jej użytkownikom i poufność szczegółowych danych.   
+\end{itemize}
+
+
+
+
+
+\subsection{WOJTEK}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+\section{Wnioski}
+
+\begin{itemize}
+\item \textit{Spostrzeżenia}
+\item Warto wiedzieć jak przedsiębiorstwa przechowują nasze dane, aby czuć się bezpiecznie.
+\item Posiadanie wiedzy na temat zabeczpieczania własnych danych jest ważne aby uniknąc nieprzyjemnych sytuacji w przysżłości z powodu braku rozwagi.
+\item \textit{Osiągnięcia}
+\item to my jakieś mamy XD?
+\item \textit{Potencjał rozwoju}
+\item brak ;/
+\end{itemize}
+\section{Bibliografia}
+\begin{itemize}
+    \item https://klinikadanych.pl/artykuly/metody-zabezpieczania-przesylu-danych 
+    \item https://fingerprints.digital/identyfikacja-uwierzytelnianie-autoryzacja-czym-sie-roznia/ 
+    \item https://www.ing.pl/wiem/bezpieczenstwo/jak-chronic-swoje-dane-osobowe 
+    \item https://fingerprints.digital/metody-uwierzytelniania-ktore-sa-bezpieczne/ 
+    \item https://www.x-kom.pl/poradniki/5280-bezpieczenstwo-w-sieci-jak-zabezpieczyc-wazne-dane.html 
+    \item https://www.x-kom.pl/poradniki/5280-bezpieczenstwo-w-sieci-jak-zabezpieczyc-wazne-dane.html 
+    \item https://www.dell.com/support/kbdoc/pl-pl/000132376/tworzenie-silnego-has%C5%82a 
+    \item https://www.techtarget.com/searchcustomerexperience/answer/How-do-companies-protect-customer-data 
+    \item https://lepiej.tauron.pl/bezpieczenstwo-i-finanse/czym-jest-technologia-blockchain-i-jakie-daje-korzysci/ 
+    \item ://www.omegasoft.pl/blog/jak-zabezpieczyc-i-chronic-dane-osobowe-w-firmie/ 
+    \item https://www.endpointprotector.com/blog/5-ways-big-companies-protect-their-data/ 
+\end{itemize}
+\end{document}
