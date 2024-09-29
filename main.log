@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.29)  29 SEP 2024 23:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.29)  30 SEP 2024 00:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -109,7 +109,7 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count270
 \l__pdf_internal_box=\box52
-) (main.aux)
+) (main.aux (RozdziaÅ‚y/Opis zaprojektowanego systemu/PodrozdziaÅ‚y/Projekt bazy danych.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -179,21 +179,34 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 [1]
+
+[2]
+\openout2 = `"RozdziaÅ‚y/Opis zaprojektowanego systemu/PodrozdziaÅ‚y/Projekt bazy danych.aux"'.
+
+ (RozdziaÅ‚y/Opis zaprojektowanego systemu/PodrozdziaÅ‚y/Projekt bazy danych.tex
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4.
+ (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (13.15121pt too wide) in paragraph at lines 5--6
+[]\T1/lmr/m/n/12 PRACE - id_p, data, czas_start, czas_end, prze-rwa_start, prze-rwa_end,
+ []
+
+)
+
+[3
+
+{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 Overfull \hbox (6.36539pt too wide) in paragraph at lines 55--56
 \T1/lmr/m/n/12 za-gro-»e« sys-te-mów in-for-ma-tycz-nych, spo-so-bów wy-ªu-dze« da-nych. Emi-lia opra-
  []
 
 
 
-[2]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 66.
- (C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
+[4
 
-[3{C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
 
-[4]
+]
 
 [5]
 
@@ -202,6 +215,10 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 [7]
 
 [8]
+
+[9]
+
+[10]
 Overfull \hbox (4.99207pt too wide) in paragraph at lines 197--198
 []\T1/lmr/m/n/12 Posiadanie wie-dzy na te-mat za-becz-pie-cza-nia wªa-snych da-nych jest wa»ne
  []
@@ -263,26 +280,26 @@ Overfull \hbox (14.26505pt too wide) in paragraph at lines 215--216
 
 
 
-[9]
+[11]
 
-[10] (main.aux)
+[12] (main.aux (RozdziaÅ‚y/Opis zaprojektowanego systemu/PodrozdziaÅ‚y/Projekt bazy danych.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2845 strings out of 473899
- 49266 string characters out of 5726028
- 444319 words of memory out of 5000000
- 25694 multiletter control sequences out of 15000+600000
+ 2872 strings out of 473899
+ 51599 string characters out of 5726028
+ 444554 words of memory out of 5000000
+ 25712 multiletter control sequences out of 15000+600000
  597062 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,5n,65p,1294b,355s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
-Output written on main.pdf (11 pages, 107140 bytes).
+Output written on main.pdf (13 pages, 109100 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
