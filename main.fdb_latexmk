@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1727644761.94186 "e:/Inzynierka/main.tex" "main.pdf" "main" 1727644762.64263 0
+["pdflatex"] 1727645023.80875 "e:/Inzynierka/main.tex" "main.pdf" "main" 1727645024.45093 0
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1727640354 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1727640271 11948669 b73495a6d1be2dfc954523b2ce679fbb ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -51,10 +51,10 @@
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/lm/ot1lmr.fd" 1430474546 1882 28c08db1407ebff35a658fd141753d16 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/lm/t1lmr.fd" 1430474546 1867 996fe743d88a01aca041ed22cc10e1bb ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/lm/ts1lmr.fd" 1430474546 1914 884882d7ebb0fd65cea93fca77ff6f5a ""
-  "e:/Inzynierka/main.tex" 1727644761 12636 4be85009392d8c4ba33bb1f1edf651df ""
-  "main.aux" 1727644762 2120 ac4787959e2e267991880fc1424ad910 "pdflatex"
-  "main.tex" 1727644761 12636 4be85009392d8c4ba33bb1f1edf651df ""
-  "main.toc" 1727644762 1290 bf8e090e632c469ad7ce871531a7b48c "pdflatex"
+  "e:/Inzynierka/main.tex" 1727645023 12629 fc2e226e602f7bd2ab2dc8d9bc94b944 ""
+  "main.aux" 1727645024 2120 ac4787959e2e267991880fc1424ad910 "pdflatex"
+  "main.tex" 1727645023 12629 fc2e226e602f7bd2ab2dc8d9bc94b944 ""
+  "main.toc" 1727645024 1290 bf8e090e632c469ad7ce871531a7b48c "pdflatex"
   (generated)
   "main.aux"
   "main.log"
