@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1727787901.75968 "c:/Users/wojte/source/repos/Inzynierka/Inzynierka/wstep.tex" "wstep.pdf" "wstep" 1727787902.29973 0
+["pdflatex"] 1727797441.55041 "c:/Users/wojte/source/repos/Inzynierka/Inzynierka/Rozdziały/Wstęp/wstep.tex" "wstep.pdf" "wstep" 1727797442.5549 0
   "C:/Users/wojte/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1727709725 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/wojte/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1727646074 11948197 2c8e1a5a85bd1959e943101bf0159586 ""
   "C:/Users/wojte/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -49,10 +49,10 @@
   "C:/Users/wojte/AppData/Local/Programs/MiKTeX/tex/latex/lm/ot1lmr.fd" 1430474546 1882 28c08db1407ebff35a658fd141753d16 ""
   "C:/Users/wojte/AppData/Local/Programs/MiKTeX/tex/latex/lm/t1lmr.fd" 1430474546 1867 996fe743d88a01aca041ed22cc10e1bb ""
   "C:/Users/wojte/AppData/Local/Programs/MiKTeX/tex/latex/lm/ts1lmr.fd" 1430474546 1914 884882d7ebb0fd65cea93fca77ff6f5a ""
-  "c:/Users/wojte/source/repos/Inzynierka/Inzynierka/wstep.tex" 1727787900 2189 9f37d8f2a5b4d7ffac9b10bb97926bba ""
-  "wstep.aux" 1727787902 987 eff0facfdd5721ec806a241c7be5ef01 "pdflatex"
-  "wstep.tex" 1727787900 2189 9f37d8f2a5b4d7ffac9b10bb97926bba ""
-  "wstep.toc" 1727787902 527 119ded2ecabbc37e072d61afc9b8c22d "pdflatex"
+  "c:/Users/wojte/source/repos/Inzynierka/Inzynierka/Rozdziały/Wstęp/wstep.tex" 1727797439 2189 9f37d8f2a5b4d7ffac9b10bb97926bba ""
+  "wstep.aux" 1727797442 987 eff0facfdd5721ec806a241c7be5ef01 "pdflatex"
+  "wstep.tex" 1727797439 2189 9f37d8f2a5b4d7ffac9b10bb97926bba ""
+  "wstep.toc" 1727797442 527 119ded2ecabbc37e072d61afc9b8c22d "pdflatex"
   (generated)
   "wstep.aux"
   "wstep.log"
