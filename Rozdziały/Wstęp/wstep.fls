@@ -1,6 +1,6 @@
-PWD c:\Users\wojte\source\repos\Inzynierka\Inzynierka
+PWD c:\Users\wojte\source\repos\Inzynierka\Inzynierka\Rozdziały\Wstęp
 INPUT C:\Users\wojte\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\wojte\source\repos\Inzynierka\Inzynierka\wstep.tex
+INPUT c:\Users\wojte\source\repos\Inzynierka\Inzynierka\Rozdziały\Wstęp\wstep.tex
 OUTPUT wstep.log
 INPUT C:\Users\wojte\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\wojte\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
